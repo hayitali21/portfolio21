@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="./swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./css/style.min.css">
+        <!--==================== Anime.js ====================-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+      
+                      
+                 
+                  
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container" id="nav">
+              <a href="#" class="nav_logo">Hayitali</a>
+              <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list grid">
+                  <li class="nav_item">
+                    <a href="#home" class="nav_link">
+                      <i class="uil uil-estate nav_icon"></i>Home
+                    </a>
+                  </li>
+                  <li class="nav_item">
+                    <a href="#about" class="nav_link">
+                      <i class="uil uil-user nav_icon"></i>About
+                    </a>
+                  </li>
+                 
+                  <li class="nav_item">
+                    <a href="#portfolio" class="nav_link">
+                      <i class="uil uil-scenery nav_icon"></i>Project
+                    </a>
+                  </li>
+                  <li class="nav_item">
+                    <a href="#contact" class="nav_link">
+                      <i class="uil uil-message nav_icon"></i>Contact
+                    </a>
+                  </li>
+                  <li class="nav_item">
+                    <a href="#" class="nav_link change_color">
+                       <i class="uil uil-briefcase-alt nav_icon"></i>
+                       Colors
+                     </a>
+                   </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav_close"></i>
+              </div>
+              <div class="nav_btn">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav_toggle" id="nav_toggle">
+                  <i class="uil uil-apps"></i>
+                </div>
+              </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+
+            <section class="home section" id="home">
+
+              <div id="top">
+               <i class="uil uil-arrow-up"></i>
+            </div>
+
+              <div class="home_container container grid">
+                <div class="home_content grid">
+                  <div class="social-link d-flex">
+                <a href="#"><i class="uil uil-github-alt social-icon"></i></a>
+                <a href="#"><i class="uil uil-instagram social-icon"></i></a>
+                <a href="#"><i class="uil uil-twitter-alt social-icon"></i></a>
+              </div>
+              <div class="home_img">
+                  <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                        <image class="myPhoto" x='1' y='1' xlink:href="./img/images/photo21.jpg"/>
+                    </g>
+                </svg>
+                </div>
+                <div class="home_text">
+                  <h1 class="ml16">Welcome to my site!</h1>
+
+                  <h1 class="ml9">
+                    <span class="text-wrapper">
+                      <span class="letters">
+                        <h1 class="ml10">
+                          <span class="text-wrapper">
+                            <span class="letters">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus inventore tenetur illum at corporis pariatur repellat quis a tempore, quasi soluta unde provident commodi. Veniam in ea obcaecati? Reprehenderit, nulla.</span>
+                          </span>
+                        </h1>
+                      </span>
+                    </span>
+                  </h1>
+
+                  
+                    <a href="https://t.me/hayitali_2001" class="btn">Contact me
+                      <i class="uil uil-message"></i>
+                    </a>
+               
+                </div>
+              </div>
+              
+              <div class="home_scroll">
+                 <a href="#about" class="btns">
+                      <i class="uil uil-mouse-alt"></i>
+                           <span>Down</span>
+                      <i class="uil uil-arrow-down"></i>
+                    </a>
+              </div>
+                </div>
+            </section>
+            
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+              <div class="container">
+                <h1 class="about_title">About</h1>
+                <div class="flex_box d-flex imgalign" >
+                  <div class="about_img">
+                    <img class="about_photo" src="./img/images/about.jpg" alt="" />
+                  </div>
+                  <div class="about_text">
+                    <p>My name is Hayitali.Creative Front-End Developer offering 5+ month of experience providing high-impact web solutions for diverse industry organizations. Skilled in designing, developing and testing multiple web-based applications incorporating a range of technologies. Aspiring to combine broad background with strong technical skills to excel as a Front-End Developer.</p>
+                    
+                    <div class="spans d-flex">
+                      <span>6+ <br />Month <br> experience</span>
+                      <span>7+ <br />Completed  <br />project</span>
+                      <span>0+ <br />Companies <br />works</span>
+                    </div>
+                    
+                    <a href="#" class="btn">Rezyume
+                    <i class="uil uil-arrow-down"></i></a>
+                    
+                  </div>
+                </div>
+              </div>
+        
+            </section>
+
+          
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="section portfolio " id="portfolio">
+             
+             				<h2 class="portfolio-title">Loyihalar</h2>
+               <span class="portfolio-subtitle">Yaqinda qilingan ishlar</span>  
+               
+               <div class="portfolio_container  swiper-container bg container ">
+                 <div class="swiper-wrapper ">
+                    <!--Portfolio1-->
+                    <div class="portfolio_content grid swiper-slide">
+                      <img class="portfolio_photo" src="./img/images/STREET_01.jpg" alt="jpg" />
+                      
+                      <div class="portfolio_text">
+                        <h3 class="portfolio_title">Street maket</h3>
+                        <p class="portfolio_subtitle">
+                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit perspiciatis accusamus maxime enim et recusandae, molestiae quibusdam eum nostrum omnis. Culpa modi illo, consectetur dicta voluptatem ea qui at laborum repudiandae tenetur ducimus aut minus!
+                        </p>
+                        <a href="https://street21.netlify.app/" class="portfolio_btn">View
+                         <i class="uil uil-arrow-right portfolio_icon"></i>
+                        </a>
+                       
+                      </div>
+                    </div>
+
+<div class="portfolio_content grid swiper-slide">
+  <img class="portfolio_photo" src="./img/images/photo11.png" alt="jpg" />
+  
+  <div class="portfolio_text">
+    <h3 class="portfolio_title">Designer</h3>
+    <p class="portfolio_subtitle">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident inventore, nemo qui consequatur ipsum porro quod nobis incidunt fugiat pariatur deleniti blanditiis exercitationem a molestiae temporibus velit modi labore laudantium nostrum sed aliquam voluptate! Atque!
+    </p>
+    <a href="https://designer1033.netlify.app/" class="portfolio_btn">View
+     <i class="uil uil-arrow-right portfolio_icon"></i>
+    </a>
+   
+  </div>
+</div>
+
+<div class="portfolio_content grid swiper-slide">
+  <img class="portfolio_photo" src="./img/images/photo2.png" alt="jpg" />
+  
+  <div class="portfolio_text">
+    <h3 class="portfolio_title">Orange maket</h3>
+    <p class="portfolio_subtitle">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque ea omnis repellendus nulla dicta dolorum in velit delectus saepe eaque totam id eligendi, quam obcaecati assumenda, a sint odio nisi temporibus odit nam dolorem debitis?
+    </p>
+    <a href="https://orangewithbootstrap.netlify.app/" class="portfolio_btn">View
+     <i class="uil uil-arrow-right portfolio_icon"></i>
+    </a>
+   
+  </div>
+</div>
+
+<div class="portfolio_content grid swiper-slide">
+  <img class="portfolio_photo" src="./img/images/photo3.png" alt="jpg" />
+  
+  <div class="portfolio_text">
+    <h3 class="portfolio_title">Startup</h3>
+    <p class="portfolio_subtitle">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi sit, minus suscipit, explicabo tempora laudantium debitis dolore saepe quidem natus quo aliquam eveniet mollitia, facilis quasi! Obcaecati inventore iste deleniti ipsum saepe tempore sed nostrum?
+    </p>
+    <a href="https://soat12-22.netlify.app/" class="portfolio_btn">View
+     <i class="uil uil-arrow-right portfolio_icon"></i>
+    </a>
+   
+  </div>
+</div>
+
+
+
+<div class="portfolio_content grid swiper-slide">
+  <img class="portfolio_photo" src="./img/images/photo4.jpg" alt="jpg" />
+  
+  <div class="portfolio_text">
+    <h3 class="portfolio_title">Nike maket</h3>
+    <p class="portfolio_subtitle">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illum ullam quasi ut, pariatur aliquam quia sint voluptas totam dolor praesentium repellat et magni itaque quibusdam modi illo voluptatum. Cum architecto nobis ut dignissimos reprehenderit!
+    </p>
+    <a href="https://ertagashanba.netlify.app/" class="portfolio_btn">View
+     <i class="uil uil-arrow-right portfolio_icon"></i>
+    </a>
+   
+  </div>
+</div>
+
+<div class="portfolio_content grid swiper-slide">
+  <img class="portfolio_photo" src="./img/images/photo5.jpg" alt="jpg" />
+  
+  <div class="portfolio_text">
+    <h3 class="portfolio_title">Lazzat</h3>
+    <p class="portfolio_subtitle">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta pariatur odit debitis, fugiat ad commodi dignissimos laudantium expedita error odio tempore perspiciatis est eveniet illo nostrum accusantium fuga quae? Sequi odio et accusamus suscipit officiis?
+    </p>
+    <a href="https://chorshanba.netlify.app/" class="portfolio_btn">View
+     <i class="uil uil-arrow-right portfolio_icon"></i>
+    </a>
+   
+  </div>
+</div>
+           
+<div class="portfolio_content grid swiper-slide">
+  <img class="portfolio_photo" src="./img/images/photo6.png" alt="jpg" />
+  
+  <div class="portfolio_text">
+    <h3 class="portfolio_title">Our strong</h3>
+    <p class="portfolio_subtitle">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aliquid doloremque laboriosam ea deleniti illum odit inventore nihil, ad, officiis, repudiandae dolores distinctio ipsum quo delectus natus placeat temporibus. Quod officiis itaque neque esse hic!View
+    </p>
+    <a href="https://hayitali0521.netlify.app/" class="portfolio_btn">View
+     <i class="uil uil-arrow-right portfolio_icon"></i>
+    </a>
+   
+  </div>
+</div>
+
+                 
+                 
+               </div>
+                                 <div class="swiper-button-next"><i class="uil uil-angle-right-b swiper-portfolio-icon"></i></div>
+    <div class="swiper-button-prev">
+    				<i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+    </div>
+   
+                   <!-- Add Pagination -->
+    <div class="swiper-pagination">
+    				
+    </div>
+  
+</div>
+
+             <div class="big-skills">
+               <h2 class="skills-subtitle">What I do?</h2>
+              <div class="skills section home_container container">
+                <img class="skills-icon" src="./img/html.png" alt="">
+                <img class="skills-icon" src="./img/CSS3_logo_and_wordmark.svg.png" alt="">
+                <img class="skills-icon" src="./img/js.png" alt="">
+                <img class="skills-icon" src="./img/jquery.png" alt="png">
+                <img class="skills-icon" src="./img/less.jpg" alt="png">
+                <img class="skills-icon" src="./img/sass.jpg" alt="png">
+                <img class="skills-icon" src="./img/gulp.png" alt="png">
+                <img class="skills-icon" src="./img/boostrap.png" alt="png">
+                <img class="skills-icon" src="./img/github.png" alt="png">
+  
+               </div>
+             </div>
+            </section>
+
+           
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+    <div class="container_form">
+      
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Malumotlar</h3>
+          
+
+          <div class="info">
+            <div class="information">
+              <i class="uil uil-map-marker icon"></i>
+              <p>Sirdaryo vil, Boyovut tuman, Madaniyat mahalla, 8-uy</p>
+            </div>
+            <div class="information">
+               <i class="uil uil-envelope-alt icon"></i>
+              <p>hgpro0521@gmail.com</p>
+            </div>
+            <div class="information">
+              <i class="uil uil-phone icon"></i>
+              <p>+998915031181</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Ijtimoiy tarmoqlar :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="uil uil-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="uil uil-twitter-alt"></i>
+              </a>
+              <a href="#">
+                <i class="uil uil-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="uil uil-telegram-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Xabar qoldirish:</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Ism</label>
+              <span>ram</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>ramka</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Raqam</label>
+              <span>ramka</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Xabar</label>
+              <span>ramka</span>
+            </div>
+            <input type="submit" value="Yuborish" class="btn_form" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <h1 class="footer-title">Copyright © 2021 H.Qayumov</h1>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="./js/main.js"></script>
+        <script src="./js/jquery-3.2.1.min.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
